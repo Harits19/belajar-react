@@ -4,7 +4,9 @@
   "description": "project belajar npm",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "hello": "echo \"Hello World\"",
+    "server": "node index.js"
   },
   "keywords": [
     "npm"
@@ -12,7 +14,12 @@
   "author": "harits",
   "license": "ISC",
   "dependencies": {
-    "moment": "^2.29.1"
+    "dotenv": "^8.2.0",
+    "formidable": "^1.2.2",
+    "moment": "^2.29.1",
+    "mv": "^2.1.1",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.4.17"
   },
   "devDependencies": {
     "gulp": "^4.0.2"
